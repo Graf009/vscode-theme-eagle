@@ -1,0 +1,24 @@
+{
+    "name": "Eagle-Oceanic-Next",
+    "displayName": "Eagle Oceanic Next",
+    "description": "Eagle Oceanic Next themes for VS Code.",
+    "version": "1.0.0",
+    "publisher": "graf009",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Eagle Oceanic Next",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eagle Oceanic Next.tmTheme"
+                // "path": "./themes/original_Oceanic Next.tmTheme"
+                // "path": "./themes/myTheme.json"
+            }
+        ]
+    }
+}

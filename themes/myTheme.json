@@ -1,0 +1,152 @@
+{
+	"name": "Eagle Ocean Next",
+	"settings": [
+        {
+			"settings": {
+				"background": "#1B2B34",
+				"divider": "#FF0000", // test
+				"foreground": "#cdd3de",
+				"invisibles": "#65737e",
+				"lineHighlight": "#65737e54",
+				"selection": "#4f5b66"
+			}
+		},		
+        {
+            "name": "Comment",
+			"scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+			"settings": {
+				"foreground": "#65737e"
+			}
+		},
+        {
+            "name": "Constants",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#F99157"
+			}
+		},
+        {
+            "name": "Delimiters",
+			"scope": "none",
+			"settings": {
+				"foreground": "#FF0000" // test
+			}
+		},
+        {
+            "name": "Operators and Punctuation",
+			"scope": [
+                "keyword.operator",
+                "punctuation.tag.string",
+                "meta.tag",
+                "punctuation"
+            ],
+			"settings": {
+				"foreground": "#5FB3B3"
+			}
+		},
+        {
+            "name": "Variable and parameter name",
+			"scope": [
+				"meta.parameter.type.variable",
+				"variable.parameter",
+				"variable",
+				"tag.variable",
+				"tag.entity.variable"
+			],
+			"settings": {
+				"foreground": "#CDD3DE"
+			}
+		},
+        {
+			"name": "Strings, Inherited Class",
+			"scope": [
+                "string",
+                "tag.string",
+                "punctuation.tag.definition.string",
+                "constant.other.symbol",
+                "entity.other.inherited-class"
+            ],
+			"settings": {
+				"foreground": "#99C794"
+			}
+		},
+        {
+            "name": "Keywords",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#C594C5"
+			}
+		},
+        {
+            "name": "Functions",
+			"scope": [
+                "entity.name.function",
+                "entity.name.function.method"
+                // "meta.require",
+                // "support.function.any-method"
+            ],
+			"settings": {
+				"foreground": "#6699CC"
+			}
+		},
+        {
+            "name": "Classes",
+			"scope": "entity.name.class",
+			"settings": {
+				"foreground": "#FAC863"
+			}
+		},
+        {
+            "name": "Type Name",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#FF0000" // e5c07b test
+			}
+		},
+        {
+            "name": "Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#BB80B3"
+			}
+		},
+        {
+            "name": "JSX Attributes",
+			"scope": "entity.jsx.attribute-name",
+			"settings": {
+                "fontStyle": "italic"
+			}
+		},
+        {
+            "name": "JSX Attributes",
+			"scope": "variable.language",
+			"settings": {
+                "fontStyle": "italic",
+                "foreground": "#EC5F67"
+			}
+		},
+        {
+            "name": "Storage",
+			"scope": [
+                "storage.type",
+                "storage.modifier"
+            ],
+			"settings": {
+                "foreground": "#C594C5"
+			}
+		},
+        {
+            "name": "Embedded",
+			"scope": [
+                "punctuation.section.embedded",
+                "variable.interpolation"
+            ],
+			"settings": {
+                "foreground": "#F99157"
+			}
+		}
+	]
+}
