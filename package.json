@@ -4,6 +4,16 @@
     "description": "Eagle Oceanic Next themes for VS Code.",
     "version": "1.0.0",
     "publisher": "graf009",
+    "homepage": "https://github.com/Graf009/vscode-theme-eagle/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Graf009/vscode-theme-eagle.git"
+    },
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#eff1f3",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
@@ -16,8 +26,6 @@
                 "label": "Eagle Oceanic Next",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Eagle Oceanic Next.tmTheme"
-                // "path": "./themes/original_Oceanic Next.tmTheme"
-                // "path": "./themes/myTheme.json"
             }
         ]
     }
